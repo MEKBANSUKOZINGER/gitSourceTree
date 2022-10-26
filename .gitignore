@@ -1,0 +1,27 @@
+secrets.yaml
+
+
+###BASIC###
+FileName.c
+
+###최상위 폴더의 그 파일###
+/FileName.c
+
+###모든 특정 확장자 파일###
+*.c
+
+###이건 무시하지 마라###
+!FileName.c
+
+###파일명이면 파일만, 폴더 명이면 폴더 전체를 무시###
+FileName
+
+###폴더일때 폴더와 그 내용들을###
+FileName/
+
+###활용###
+FileName/debug.c
+FileName/*.c
+
+###이새끼가 어디에 있든 그건 다 무시###
+FileName/**/library.yaml
